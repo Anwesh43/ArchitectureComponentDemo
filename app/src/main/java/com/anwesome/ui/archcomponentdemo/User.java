@@ -28,4 +28,7 @@ public class User {
         this.name = name;
         this.age = age;
     }
+    public String toString() {
+        return String.format("Hello my name is %s and age is %d",name,age);
+    }
 }
